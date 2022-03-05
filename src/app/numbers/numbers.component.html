@@ -1,0 +1,17 @@
+<h2>Tabuada do {{ selectedNumber }}</h2>
+
+<table>
+  <tr *ngFor="let item of multiplyNumbers">
+    {{
+      selectedNumber
+    }}
+    *
+    {{
+      item
+    }}
+    =
+    {{
+      selectedNumber * item
+    }}
+  </tr>
+</table>
